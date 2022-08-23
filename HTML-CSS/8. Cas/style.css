@@ -1,0 +1,51 @@
+.main {
+  margin: 15px;
+  width: 400px;
+  height: 600px;
+  background-color: rgb(46, 161, 187);
+  border-radius: 20px;
+  border: 1px solid rgb(7, 7, 99);
+  display: inline-block; /* da nam doda jos jedan blok pored  */
+  padding: 20px;
+}
+.main img {
+  /* objectiv-fit: cover - za portrait normalna velicina ali nije u celini*/
+  /* objectiv-fit: content - za portrait razvucen ali u celini */
+  height: 200px;
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.main h1 {
+  text-align: center;
+  text-transform: uppercase;
+  /* text-transform: lowercase - sva mala */
+  /* text-transform: none; defaultna vrednost */
+  /* text-transform: capitalilze- svako pocetno slovo veliko */
+  font-size: 28px;
+  margin: 15px;
+}
+
+.main h3 {
+  text-transform: capitalize;
+  margin: 25px;
+}
+.main p {
+  margin: 15px;
+  text-align: justify;
+  text-indent: 20px;
+  text-align-last: center;
+}
+.main img:hover {
+  content: url(./slika-sajta.jpg);
+}
+.main p:hover {
+  background-color: brown;
+  transition: 1s ease-in-out;
+  /* menja se pozadina sporije */
+}
+/* .paragraf {
+  width: 200px;
+  display: inline-block;
+} */

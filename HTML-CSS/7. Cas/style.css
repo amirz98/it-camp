@@ -1,0 +1,65 @@
+* {
+  margin: 0%;
+}
+.main {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(56, 56, 201);
+  border: 3px solid black;
+  /* padding: 30px; */
+  /* margin: 30px; */
+  /* margin-top: 20px;
+  /* margin-left: 40px; */
+  /* margin-bottom: 25px; */
+  /* Ako imamo cetiri vrednosti za svojstvo margin ili padding. Shvatanje CSS-a je sledece: */
+  /* Prva vrednost se odnosi na margin-top */
+  /* Druga vrednost se odnosi na margin right */
+  /* Treca na margin bottom */
+  /* I cetvrta na right */
+  /* margin: 10px 20px 30px 40px; */
+  /* 1. se odnosi na margin top i bottom */
+  /* 2. se odnosi na left i right */
+  /* ne odnosi se na visinu AUTO, vec samo na sirinu */
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* margin: 0px 20px 30px 0px; */
+  /* border: 3px solid rgb(235, 123, 31); - obicna linija */
+  /* border: 3px double rgb(235, 123, 31); - duplirana linija */
+  /* border: 3px dashed rgb(235, 79, 31); - isprekidana */
+  /* border: 3px dotted rgb(235, 79, 31); */
+  /* border-radius - zaobljenje ivica */
+  border: 3px solid red;
+  /* border-radius: 10px 20px 30px 40px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  padding: 0px 7px 15px;
+  /* senka */
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+  /* box-shadow: -3px -3px 20px rgba(0, 0, 0, 1); Ako zelimo da efekat postignemo na vrh i levu stranu */
+}
+button {
+  padding: 10px;
+  margin-left: 300px;
+}
+
+p {
+  text-align: justify;
+  text-align-last: center;
+  text-indent: 25px;
+  /* text indent Da se uvuce tekst kao uvod rarada zakljucak */
+}
+
+p:hover {
+  background-color: aquamarine;
+  color: beige;
+}
+
+/* kartica centrirana na sredini, na paragraf hover, kartica zaobljena, slika samo na gornjim coskovima, kada stavimo mis preko slike da se prikaze nova slika
+content: url - dodajemo fotografiju preko cssa */
+
+/* Odraditi karticu sa slike
+glavni kontejner da ima sirinu 400px, visinu 600px
+fitigrafija da zauzima trecinu glavnog kontejnera
+1 naslov velicine H1, jedan podnaslov velicine H3, margina da je odbijena sa obe strane, text align justify */
