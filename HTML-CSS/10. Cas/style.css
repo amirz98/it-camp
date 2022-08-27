@@ -1,0 +1,53 @@
+/* 2. nacin primene ekternih stilova */
+/* @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap"); */
+
+body {
+  font-family: "Kalam", cursive;
+}
+.main {
+  margin: 20px auto;
+  width: 400px;
+  height: 600px;
+  background-color: rgb(79, 227, 227);
+  padding: 15px;
+}
+.main {
+  /* text-align: center; */
+  text-transform: capitalize;
+}
+.main p {
+  text-indent: 15px;
+  text-align: justify;
+  text-align-last: center;
+}
+.text-for-icons {
+  padding-left: 10px;
+}
+
+#icon {
+  font-size: 45px;
+  color: rgb(241, 11, 11);
+  background-color: rgb(255, 255, 255);
+}
+
+#icon:nth-last-of-type(2) {
+  color: black;
+  background-color: rgb(79, 227, 227);
+}
+
+/* Domaci zadatak: 
+Kartica se nalazi na sredini 
+Gornje dve ivice su oble
+Donje dve ivice su pod pravim uglomm
+Slika da zauzima jednu treecinu ukupne visine kartice
+Slika predstavlja kucu koja se prodaje. 
+Ispod slike se nalazi adresa kuce
+Ispod adrese se nalazi grad i zemlja. (neki podnaslov) 
+Nakon tih informacija imamo: 
+ikonica spavace sobe,
+kupatila, 
+bazen,
+kvadratura kuce. 
+Font slova po zelji
+
+ */
