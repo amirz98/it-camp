@@ -43,3 +43,10 @@ h2 {
   font-size: 18px;
   font-family: "Neucha", cursive;
 }
+
+.main:nth-of-type(2) {
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(93, 167, 29);
+}
