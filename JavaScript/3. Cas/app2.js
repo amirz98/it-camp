@@ -50,4 +50,4 @@ console.log(z);
 
 let w = 65;
 // prefiksni operator
-console.log(--w);
+console.log(--w);H
