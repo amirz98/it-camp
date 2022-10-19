@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+}
+
+.container {
+  outline: 1px dotted red;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: brown;
+  height: 150px;
+  width: 300px;
+  padding: 20px;
+  /* padding: 20px 30px;
+  padding: 20px 30px 40px 10px;
+  padding-top: 2opx;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px; */
+  border: 10px solid black;
+  _border-right: 20px dashed green;
+  _border-bottom-style: double;
+  /* box-sizing: border-box; (da i pading i border ulaze u ukupnu visinu i duzinu sadrzaja */
+
+  _outline: 10px solid gray;
+
+  margin: 20px;
+  margin: 20px 20px;
+  margin: 20px 20px 20px 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 2opx;
+}
