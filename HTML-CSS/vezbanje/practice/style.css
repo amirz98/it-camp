@@ -37,3 +37,28 @@ body {
   margin-right: 20px;
   margin-bottom: 2opx;
 }
+
+.box:first-of-type {
+  visibility: hidden;
+}
+
+ul li {
+  display: inline;
+}
+
+p span {
+  background-color: #f60;
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.list-reset {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+}
+
+/* css svojstvo display definise kako ce se neki element prikazivati */
