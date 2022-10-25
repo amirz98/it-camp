@@ -31,3 +31,5 @@ console.log(person);
 person.pet = "cat";
 
 console.log(person.pet);
+
+console.log(person.name + " " + person.surname);
