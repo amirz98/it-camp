@@ -2,6 +2,7 @@
 // indexi nam omogucavaju da dodjemo do posebnog elementa iz nase liste
 // broj elemenata u listi je neogranicen
 // unutar array-a svaki od elemenata moze biti svaki validan datatype - DEFINICIJA
+// kompjuter broji od nule
 
 var cars = ["Skoda", "Volvo", "Audi", 22, undefined, null, [1, 2, 3]];
 // console.log(cars);
