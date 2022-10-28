@@ -71,3 +71,13 @@ for (let broj = 2; broj < 21; broj++) {
 for (let broj = 2; broj <= 20; broj += 2) {
   console.log(broj);
 }
+
+// Domaci:
+// 1.
+// Ispisati neparne brojeve od 1 do 20 na dva nacina.
+// 2.
+// Ispisati sve brojeve od 50 do 100 koji su deljivi sa 5.
+// 3.
+// Ispisati dvostruku vrednost prirodnih brojeva od 6 do 14.
+// 4.
+// Suma neparnih prirodnih brojeva od 10 do 20.
