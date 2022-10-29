@@ -9,18 +9,18 @@
 
 // PRVI ZADATAK - PRVI NACIN
 
-for (let i = 1; i <= 20; i++) {
-  if (i % 2 !== 1) {
-    continue;
-  } else {
-    console.log(i);
-  }
-}
-// PRVI ZADATAK - DRUGI NACIN
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 !== 1) {
+//     continue;
+//   } else {
+//     console.log(i);
+//   }
+// }
+// // PRVI ZADATAK - DRUGI NACIN
 
-for (let broj = 1; broj <= 20; broj += 2) {
-  console.log(broj);
-}
+// for (let broj = 1; broj <= 20; broj += 2) {
+//   console.log(broj);
+// }
 
 // DRUGI ZADATAK
 
@@ -31,12 +31,14 @@ for (let i = 50; i <= 100; i += 5) {
   console.log(i);
 }
 
+// TRECI ZADATAK
+
 // CETVRTI ZADATAK
 
-let sum = 0;
-for (i = 10; i <= 20; i++) {
-  if (i % 2 == 1) {
-    sum += i;
-    console.log(sum);
-  }
-}
+// let sum = 0;
+// for (i = 10; i <= 20; i++) {
+//   if (i % 2 == 0) {
+//     sum += i;
+//     console.log(sum);
+//   }
+// }
