@@ -7,8 +7,7 @@
 // "Danas je 'radni dan'"
 // "Ugodno provedite vikend"
 
-let date = +prompt("Koji je danas dan?")
-switch (new Date(November 1 2022).getDay(1-6)) {
+switch (new Date().getDay()) {
   case 1:
     console.log("Danas je radni dan");
     break;
